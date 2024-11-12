@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>ITP Portfolio</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=no"
+    />
+    <link rel="stylesheet" href="static/assets/css/main.css" />
+  </head>
+  <body class="is-preload">
+    <!-- Header -->
+    <section id="header">
+      <header class="major">
+        <h1>Ammar Abdella</h1>
+        <p>
+          Electro-Mechanical Enginneer<a href="http://www.aastu.edu.et/">
+            @AASTU</a
+          >
+        </p>
+      </header>
+      <div class="container">
+        <ul class="actions special">
+          <li><a href="#one" class="button primary scrolly">Begin</a></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- One -->
+    <section id="one" class="main special">
+      <div class="container">
+        <span class="image fit primary"
+          ><img src="static/images/pic01.jpg" alt=""
+        /></span>
+        <div class="content">
+          <header class="major">
+            <h2>Who I am</h2>
+          </header>
+          <p>
+            I'm an electromechanical engineer with a passion for pushing
+            boundaries. I'm constantly exploring new technologies and seeking
+            creative solutions to complex problems. My love for design and a
+            strong foundation in SolidWorks allow me to bring ideas to life,
+            from intricate mechanisms . Beyond the technical, I'm a tech
+            enthusiast who thrives on the thrill of learning and sharing
+            knowledge. I'm always eager to connect with fellow innovators and
+            collaborate on exciting projects.I'm driven by a desire to make a
+            tangible impact on the world around me.
+          </p>
+        </div>
+        <a href="#two" class="goto-next scrolly">Next</a>
+      </div>
+    </section>
+
+    <!-- Two -->
+    <section id="two" class="main special">
+      <div class="container">
+        <span class="image fit primary"
+          ><img src="static/images/pic02.jpg" alt=""
+        /></span>
+        <div class="content">
+          <header class="major">
+            <h2>Stuff I do</h2>
+          </header>
+          <p>
+            I design and build innovative solutions, from PCB layouts and mobile
+            apps to 3D models in SolidWorks and Python applications.
+          </p>
+          <ul class="icons-grid">
+            <li>
+              <a href="{{url_for('projects',id=1)}}"
+                ><span class="icon solid major fa-solid fa-robot"></span
+              ></a>
+              <h3>PCB-DESIGN</h3>
+            </li>
+            <li>
+              <a href="{{url_for('projects',id=2)}}">
+                <span class="icon solid major fa-pencil-alt"></span>
+              </a>
+
+              <h3>Innovation Center</h3>
+            </li>
+            <li>
+              <a href="{{url_for('projects',id=3)}}">
+                <span class="icon solid major fa-ruler"></span>
+              </a>
+
+              <h3>Solidworks</h3>
+            </li>
+            <li>
+              <a href="{{url_for('projects',id=4)}}"
+                ><span class="icon solid major fa-code"></span
+              ></a>
+
+              <h3>Python Developer</h3>
+            </li>
+            <li>
+              <a href="{{url_for('projects',id=5)}}"
+                ><span class="icon solid major fa-mobile"></span
+              ></a>
+
+              <h3>Flutter Developer</h3>
+            </li>
+          </ul>
+        </div>
+        <a href="#three" class="goto-next scrolly">Next</a>
+      </div>
+    </section>
+
+    <!-- Three -->
+    <section id="three" class="main special">
+      <div class="container">
+        <span class="image fit primary"
+          ><img src="static/images/pic03.jpg" alt=""
+        /></span>
+        <div class="content">
+          <header class="major">
+            <h2>ITP Project</h2>
+          </header>
+          <p>
+            As an electromechanical engineer, I'm driven by innovation and a
+            desire to make a real-world impact. Our ITP project, a<a
+              href="https://www.researchgate.net/publication/360074686_SMART_SPEED_BREAKER_TECHNOLOGY_USING_ARDUINO_UNO_IR_SENSOR"
+              >"Smart Speed Breaker"</a
+            >
+            focuses on enhancing road safety by incorporating intelligent
+            technology into traditional speed bumps. This project aims to create
+            a system that not only slows down vehicles but also provides
+            valuable data for traffic analysis and potential hazard detection.
+            <br />
+            <br />
+            <br />
+            <a href="{{url_for('PDF')}}">Download Our Project PDF </a>
+          </p>
+        </div>
+        <a href="#footer" class="goto-next scrolly">Next</a>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <section id="footer">
+      <div class="container">
+        <header class="major">
+          <h2>Get in touch</h2>
+        </header>
+        <form method="post" action="#">
+          <div class="row gtr-uniform">
+            <div class="col-6 col-12-xsmall">
+              <input type="text" name="name" id="name" placeholder="Name" />
+            </div>
+            <div class="col-6 col-12-xsmall">
+              <input type="email" name="email" id="email" placeholder="Email" />
+            </div>
+            <div class="col-12">
+              <textarea
+                name="message"
+                id="message"
+                placeholder="Message"
+                rows="4"
+              ></textarea>
+            </div>
+            <div class="col-12">
+              <ul class="actions special">
+                <li>
+                  <input type="submit" value="Send Message" class="primary" />
+                </li>
+              </ul>
+            </div>
+          </div>
+        </form>
+      </div>
+      <footer>
+        <ul class="icons">
+          <li>
+            <a href="#" class="icon brands alt fa-twitter"
+              ><span class="label">Twitter</span></a
+            >
+          </li>
+          <li>
+            <a href="#" class="icon brands alt fa-facebook-f"
+              ><span class="label">Facebook</span></a
+            >
+          </li>
+          <li>
+            <a href="#" class="icon brands alt fa-instagram"
+              ><span class="label">Instagram</span></a
+            >
+          </li>
+          <li>
+            <a href="#" class="icon solid alt fa-envelope"
+              ><span class="label">Email</span></a
+            >
+          </li>
+        </ul>
+        <ul class="copyright">
+          <li>&copy; Copyright {{date}}</li>
+          <li><a href="#">ammarabdellasiraje@gmail.com</a></li>
+          <li><a href="http://unsplash.com">Images</a></li>
+        </ul>
+      </footer>
+    </section>
+
+    <!-- Scripts -->
+    <script src="static/assets/js/jquery.min.js"></script>
+    <script src="static/assets/js/jquery.scrollex.min.js"></script>
+    <script src="static/assets/js/jquery.scrolly.min.js"></script>
+    <script src="static/assets/js/browser.min.js"></script>
+    <script src="static/assets/js/breakpoints.min.js"></script>
+    <script src="static/assets/js/util.js"></script>
+    <script src="static/assets/js/main.js"></script>
+  </body>
+</html>
